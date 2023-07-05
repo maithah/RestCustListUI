@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F4D2"
+    android:backgroundTint="#F4DEBC"
+    tools:context=".DisplayActivity">
+
+    <TextView
+        android:id="@+id/restId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="XXXXXXX RESTAURANT"
+        android:textColor="#8A2404"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="CUSTOMER LIST"
+        android:textColor="#892404"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#F8990D"
+        android:text="ADD CUSTOMER"
+        app:iconTint="#FF5722" />
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAdd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F8990D"
+        android:text="VIEW CUSTOMER"
+        app:iconTint="#FF5722" />
+
+</RelativeLayout>
